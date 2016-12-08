@@ -5,6 +5,6 @@ setTimeout( function() {
   doc.getElementsByClassName('gs-c-promo-heading__title')[0].innerHTML = 'Parliament votes to cancel Brexit';
   doc.getElementsByClassName('gs-c-promo-summary')[0].innerHTML = "Parliament has voted to cancel Brexit";
   doc.getElementsByClassName('gs-o-responsive-image')[0].getElementsByTagName('img')[0].src='https://upload.wikimedia.org/wikipedia/commons/c/c6/I_love_Europe.png';
-  doc.getgetElementsByClassName('gs-o-responsive-image')[0].getElementsByTagName('img')[0].srcset = '';
+  doc.getElementsByClassName('gs-o-responsive-image')[0].getElementsByTagName('img')[0].srcset = '';
   doc.getElementsByClassName('nw-c-top-stories-primary__story')[0].getElementsByClassName('gel-layout__item')[0].innerHTML = '';
  }, 1200);
